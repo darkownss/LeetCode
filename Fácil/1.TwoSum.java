@@ -1,3 +1,8 @@
+/*
+    hashmap usando como key os valores e value como o index
+    Pode-se atribuir os valores ao mapa e depois procurar pelo complemento 
+ */
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> m = new HashMap<Integer,Integer>();
