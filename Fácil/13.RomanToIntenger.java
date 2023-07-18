@@ -1,3 +1,9 @@
+/*
+ *  A ideia aqui seria testar a condição de que um numero anterior, caso menor, ele deverá ser diminuido do numero a direita
+ * Como em:
+ * IX = 1 + 10 - > como 1<10, então fica (-1) + 10
+ */
+
 class Solution {
     public int romanToInt(String s) {
         Map<Character,Integer> m = new HashMap<>();
