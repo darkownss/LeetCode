@@ -14,7 +14,7 @@ class Solution {
         //                                long long = 8 
         // nao há necessidade no caso de comparção pela metade do número
 
-        int inverso = 0;
+        long inverso = 0;
         int temp = x;
 
         while(x > inverso){
